@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export const Cards = props => {
+export const Cards = () => {
 	return (
 		<div className="card" style="width: 18rem;">
 			<img src="..." className="card-img-top" alt="..." />
@@ -17,4 +17,5 @@ export const Cards = props => {
 			</div>
 		</div>
 	);
-};
+
+}};
