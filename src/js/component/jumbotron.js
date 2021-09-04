@@ -2,7 +2,7 @@ import React from "react";
 
 export const Jumbotron = () => {
 	return (
-		<div className="jumbotron-fluid">
+		<div className="jumbotron">
 			<h1 className="display-4">Hello, world!</h1>
 			<p className="lead">
 				This is a simple hero unit, a simple jumbotron-style component
@@ -19,3 +19,5 @@ export const Jumbotron = () => {
 		</div>
 	);
 };
+
+export default Jumbotron;

@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 export const Navbar = () => {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-			<div className="container-fluid">
+			<div className="container">
 				<a className="navbar-brand" href="#">
-					Hola
+					Mi Navbar
 				</a>
 				<button
 					className="navbar-toggler"
@@ -30,7 +30,7 @@ export const Navbar = () => {
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#">
-								Features
+								About
 							</a>
 						</li>
 						<li className="nav-item">
@@ -44,3 +44,5 @@ export const Navbar = () => {
 		</nav>
 	);
 };
+
+export default Navbar;

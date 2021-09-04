@@ -4,24 +4,28 @@ import React from "react";
 
 import { Jumbotron } from "./jumbotron";
 import { Navbar } from "./navbar";
-import { Cards } from ".cards";
+import { Cards } from "./cards";
 
 //create your first component
 const Home = () => {
-
-	};
 	return (
 		<>
 			<div>
-				<Navbar titulo="Mi NavBar" />
+				<Navbar />
 			</div>
-			<div className="container-fluid">
-				<div className="JT">
-					<Jumbotron />
-				</div>
-				<div className="cards">
-					<Cards titulo="titulo1"/>
 
+			<div className="container">
+				<Jumbotron />
+				<div className="row">
+					<div className="col-sm">
+						<Cards />
+					</div>
+					<div className="col-sm">
+						<Cards />
+					</div>
+					<div className="col-sm">
+						<Cards />
+					</div>
 				</div>
 			</div>
 		</>
